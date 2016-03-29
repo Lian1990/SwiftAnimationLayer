@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB1584951CAA7DAD0034FD90 /* SnowFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1584941CAA7DAD0034FD90 /* SnowFlow.swift */; };
 		FBCC9D401CAA782A00C1C83D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCC9D3F1CAA782A00C1C83D /* AppDelegate.swift */; };
 		FBCC9D421CAA782A00C1C83D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCC9D411CAA782A00C1C83D /* ViewController.swift */; };
 		FBCC9D451CAA782A00C1C83D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCC9D431CAA782A00C1C83D /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB1584941CAA7DAD0034FD90 /* SnowFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowFlow.swift; sourceTree = "<group>"; };
 		FBCC9D3C1CAA782A00C1C83D /* SwiftAnimationLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAnimationLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCC9D3F1CAA782A00C1C83D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBCC9D411CAA782A00C1C83D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				FBCC9D3F1CAA782A00C1C83D /* AppDelegate.swift */,
 				FBCC9D411CAA782A00C1C83D /* ViewController.swift */,
 				FBCC9D6D1CAA784C00C1C83D /* StarMove.swift */,
+				FB1584941CAA7DAD0034FD90 /* SnowFlow.swift */,
 				FBCC9D6F1CAA789400C1C83D /* images */,
 				FBCC9D431CAA782A00C1C83D /* Main.storyboard */,
 				FBCC9D461CAA782A00C1C83D /* Assets.xcassets */,
@@ -225,6 +228,7 @@
 				TargetAttributes = {
 					FBCC9D3B1CAA782A00C1C83D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3RLR66R237;
 					};
 					FBCC9D4F1CAA782A00C1C83D = {
 						CreatedOnToolsVersion = 7.2;
@@ -295,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1584951CAA7DAD0034FD90 /* SnowFlow.swift in Sources */,
 				FBCC9D421CAA782A00C1C83D /* ViewController.swift in Sources */,
 				FBCC9D6E1CAA784C00C1C83D /* StarMove.swift in Sources */,
 				FBCC9D401CAA782A00C1C83D /* AppDelegate.swift in Sources */,
@@ -437,9 +442,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftAnimationLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Alice.SwiftAnimationLayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.customer.SwiftAnimationLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -448,9 +455,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftAnimationLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Alice.SwiftAnimationLayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.customer.SwiftAnimationLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -522,6 +531,7 @@
 				FBCC9D661CAA782A00C1C83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBCC9D671CAA782A00C1C83D /* Build configuration list for PBXNativeTarget "SwiftAnimationLayerTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				FBCC9D691CAA782A00C1C83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBCC9D6A1CAA782A00C1C83D /* Build configuration list for PBXNativeTarget "SwiftAnimationLayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +549,7 @@
 				FBCC9D6C1CAA782A00C1C83D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
